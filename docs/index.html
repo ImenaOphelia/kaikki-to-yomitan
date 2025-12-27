@@ -3,10 +3,8 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kaikki to Yomitan</title>
-  <script src="jquery-3.6.0.min.js"></script>
-  <link href="jquery.dataTables.min.css" rel="stylesheet">
-  <script src="jquery.dataTables.min.js"></script>
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="https://yomitan.wiki/assets/icon/yomitan-icon64.png">
 </head>
@@ -63,15 +61,14 @@
     <p>These dictionaries contain the International Phonetic Alphabet (IPA) transcriptions for the headwords. There are
       two types of IPA dictionaries:</p>
     <ol>
-      <li>IPA dictionaries from a single wiktionary edition - e.g. en-de contains IPA transcriptions for English
-        headwords from the German wiktionary edition,</li>
+      <li>IPA dictionaries from a single wiktionary edition,</li>
       <li>Merged IPA dictionaries from all 18 supported editions. These have more terms covered but not
         all the entries might be formatted the same way.</li>
     </ol>
     <p>
       Download an IPA dictionary of
       <select id="ipa-target"></select>
-      with data from
+      with data from the
       <select id="ipa-gloss"></select>
       Wiktionary
     <div class="download"><a id="ipa-download" href="#" target="_blank">Download</a></div>
