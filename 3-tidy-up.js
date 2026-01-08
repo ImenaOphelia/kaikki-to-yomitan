@@ -153,7 +153,7 @@ function handleLine(parsedLine) {
         if(sense.raw_tags && Array.isArray(sense.raw_tags)) {
             glossTags.push(...sense.raw_tags);
         }
-        if (targetIso === 'ru' && tags && Array.isArray(tags)) {
+        if (['ru', 'es', 'pl'].includes(targetIso) && tags && Array.isArray(tags)) {
             glossTags.push(...tags);
         }
 
